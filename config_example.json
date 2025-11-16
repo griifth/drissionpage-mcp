@@ -1,0 +1,32 @@
+{
+  "description": "DrissionPage MCP 服务器配置示例",
+  "comment": "将此文件添加到您的 MCP 客户端配置中",
+  
+  "claude_desktop_config": {
+    "mcpServers": {
+      "drissionpage": {
+        "command": "python",
+        "args": ["/path/to/drissionpage_mcp/server.py"],
+        "env": {
+          "PYTHONUNBUFFERED": "1"
+        }
+      }
+    }
+  },
+  
+  "cursor_config": {
+    "mcpServers": {
+      "drissionpage": {
+        "command": "python",
+        "args": ["/path/to/drissionpage_mcp/server.py"]
+      }
+    }
+  },
+  
+  "notes": [
+    "将 /path/to/drissionpage_mcp/server.py 替换为实际路径",
+    "确保 Python 环境中已安装所有依赖",
+    "如使用虚拟环境，command 应指向虚拟环境中的 Python"
+  ]
+}
+
