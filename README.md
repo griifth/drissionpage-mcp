@@ -50,7 +50,7 @@ python server.py
   "mcpServers": {
     "drissionpage": {
       "command": "python",
-      "args": ["/Users/hujingkai/Desktop/pypypy/mA/drissionpage_mcp/server.py"]
+      "args": ["/Users/Desktop/drissionpage_mcp/server.py"]
     }
   }
 }
